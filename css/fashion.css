@@ -1,0 +1,47 @@
+#content { 
+  height: auto;
+}
+
+#content .img_list img {
+  width: 100%;
+  border: 4px solid white;
+  transition-duration: 0.5s;
+}
+
+#content .img_list {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#content .img_list li {
+  float: left;
+  width: 12.5%;
+}
+
+
+/* 썸네일img hover */
+#content .img_list li:hover img {
+  opacity: 0.7;
+}
+
+
+#content > header {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#content > header > h1 {
+  /* 대문자로 변경 */
+  text-transform: uppercase;
+}
+
+figure {
+  text-align: center;
+  /* border: 2px solid red; */
+  margin-bottom: 10px;
+}
+
+figure > img {
+  display: inline-block!important;
+}
